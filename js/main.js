@@ -113,7 +113,7 @@
 
   // ── EDIT THIS DATE to match your next featured event ──
   // Format: 'YYYY-MM-DDTHH:MM:SS'
-  const TARGET_DATE = new Date('2026-04-26T00:00:00');
+  const TARGET_DATE = new Date('2026-04-20T00:00:00');
 
   function pad(n) {
     return String(n).padStart(2, '0');
