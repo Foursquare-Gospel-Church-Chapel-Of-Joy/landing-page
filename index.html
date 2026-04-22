@@ -290,10 +290,7 @@
         <!-- Replace with the Senior Pastor's actual photo:
              <img class="leader-card-img" src="assets/pastor-fadayini.jpg" alt="Rev Dr Paul Fadayini"> -->
         <div class="leader-card-img-placeholder">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
-          </svg>
-          <span>Add Photo</span>
+          <img src="assets/leaders_and_pastors/senior_pastor.png" alt="Rev Dr Paul Fadayini">
         </div>
         <div class="leader-card-body">
           <div class="leader-role">Senior Pastor</div>
@@ -384,11 +381,15 @@
          To change the featured event:
          1. Update the event title, date text, and description below
          2. Update TARGET_DATE in js/main.js (line ~55)
+          3. Replace the image src with your event photo (ideally 800x400):
+              src="assets/events/your-event.jpg"
+
+          src="https://images.unsplash.com/photo-1478147427282-58a87a120781?w=800&q=80"
     ══ -->
     <div class="event-featured fade-up">
       <div class="event-featured-img">
         <img
-          src="https://images.unsplash.com/photo-1478147427282-58a87a120781?w=800&q=80"
+          src="assets/events/youth_week.jpg"
           alt="Youth Week 2026"
           loading="lazy"
           width="800" height="400"
@@ -457,8 +458,8 @@
           width="600" height="190"
         >
         <div class="event-card-body">
-          <div class="event-card-date">Sunday, 20 April 2026 · 9:15 AM</div>
-          <h4 class="event-card-title">Youth Week Opening Service</h4>
+          <div class="event-card-date">Monday, 20 April 2026 · 9:15 AM</div>
+          <h4 class="event-card-title">Youth Week Fasting and Prayer</h4>
           <p class="event-card-text">The launch of Youth Week 2026 — a special Sunday service dedicated to celebrating and empowering our youth.</p>
           <a href="#contact" class="event-card-link">Learn More</a>
         </div>
@@ -474,7 +475,7 @@
           width="600" height="190"
         >
         <div class="event-card-body">
-          <div class="event-card-date">Wednesday, 23 April 2026 · 6:00 PM</div>
+          <div class="event-card-date">Wednesday, 22 April 2026 · 6:00 PM</div>
           <h4 class="event-card-title">Midweek Youth Revival</h4>
           <p class="event-card-text">A special midweek revival session for the youth — powerful worship, the Word, and prayer.</p>
           <a href="#contact" class="event-card-link">Learn More</a>
@@ -485,7 +486,8 @@
       <article class="event-card fade-up delay-2">
         <img
           class="event-card-img"
-          src="https://images.unsplash.com/photo-1511895426328-dc8714191011?w=600&q=70"
+          src="assets/events/youth_week.jpg"
+          style="object-position: center 35%;"
           alt="Youth Week Grand Finale"
           loading="lazy"
           width="600" height="190"
